@@ -46,7 +46,7 @@ namespace Serene1
 
                 public static class ResetPassword
                 {
-                    public static LocalText EmailSubject = "Reset Your Serene1 Password";
+                    public static LocalText EmailSubject = "Reset Your MarkApp Password";
                     public static LocalText FormTitle = "Reset Password";
                     public static LocalText SubmitButton = "Reset Password";
                     public static LocalText Success = "Your password is changed. Please login with your new password.";
@@ -54,7 +54,7 @@ namespace Serene1
 
                 public static class Login
                 {
-                    public static LocalText FormTitle = "Welcome to SERENE (Serenity Application Template)";
+                    public static LocalText FormTitle = "Welcome to MarkApp";
                     public static LocalText SignInButton = "Sign In";
                     public static LocalText ForgotPassword = "forgot password?";
                     public static LocalText SignUpButton = "register a new account";
@@ -62,11 +62,11 @@ namespace Serene1
 
                 public static class SignUp
                 {
-                    public static LocalText ActivateEmailSubject = "Activate Your Serene1 Account";
+                    public static LocalText ActivateEmailSubject = "Activate Your MarkApp Account";
                     public static LocalText ActivationCompleteMessage = "Your account is now activated. " +
                         "Use the e-mail and password you used while signing up to login.";
                     public static LocalText FormInfo = "Enter your details to create a free account.";
-                    public static LocalText FormTitle = "Sign up for Serene1";
+                    public static LocalText FormTitle = "Sign up for MarkApp";
                     public static LocalText SubmitButton = "Sign Up";
                     public static LocalText Success = "An e-mail with instructions to active your account is " +
                         "sent to your e-mail address. Please check your e-mails.";
@@ -77,7 +77,7 @@ namespace Serene1
         public static class Navigation
         {
             public static LocalText LogoutLink = "Logout";
-            public static LocalText SiteTitle = "Serene1";
+            public static LocalText SiteTitle = "MarkApp";
         }
 
         public static class Site
@@ -137,7 +137,7 @@ namespace Serene1
             public static class Layout
             {
                 public static LocalText FooterCopyright = "Copyright (c) 2015.";
-                public static LocalText FooterInfo = "Serenity Platform";
+                public static LocalText FooterInfo = "MarkApp Platform";
                 public static LocalText FooterRights = "All rights reserved.";
                 public static LocalText GeneralSettings = "General Settings";
                 public static LocalText Language = "Language";
