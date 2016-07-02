@@ -13,10 +13,7 @@
     {
         private static string[] databaseKeys = new[] { "Default", "Northwind" };
 
-        /// <summary>
-        /// Automatically creates a database for the template if it doesn't already exists.
-        /// You might delete this method to disable auto create functionality.
-        /// </summary>
+        
         private static void EnsureDatabase(string databaseKey)
         {
             var cs = SqlConnections.GetConnectionString(databaseKey);
@@ -108,8 +105,6 @@
             var cs = SqlConnections.GetConnectionString(databaseKey);
             var connection = cs.ConnectionString;
 
-            // safety check to ensure that we are not modifying an arbitrary database.
-            // remove these two lines if you want Serene1 migrations to run on your DB.
             if (cs.ConnectionString.IndexOf(typeof(SiteInitialization).Namespace +
                     @"_" + databaseKey + "_v1", StringComparison.OrdinalIgnoreCase) < 0)
             {

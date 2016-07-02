@@ -22,8 +22,9 @@ var target = item.Target; if (target != null) { target += " target=" + target; }
     <a href="@sectionUrl"@target>
         <i class="fa @(icon)"></i>
         <span>@title</span>
-        @if (!item.Children.IsEmptyOrNull()) {
-        <i class="fa fa-angle-left pull-right"></i>
+        @if (!item.Children.IsEmptyOrNull())
+        {
+            <i class="fa fa-angle-left pull-right"></i>
         }
     </a>
 
