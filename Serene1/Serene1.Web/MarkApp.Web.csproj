@@ -648,6 +648,18 @@
     <Content Include="fonts\ionicons.svg" />
     <Content Include="fonts\Simple-Line-Icons.dev.svg" />
     <Content Include="fonts\Simple-Line-Icons.svg" />
+    <Content Include="Modules\BasicSamples\Dialogs\ChartInDialog\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Dialogs\DefaultValuesInNewDialog\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Dialogs\MultiColumnDialog\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Grids\CancellableBulkAction\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Grids\GridFilteredByCriteria\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Grids\GroupingAndSummariesInGrid\Index.cshtml" />
+    <Content Include="Modules\BasicSamples\Grids\ViewWithoutID\Index.cshtml" />
     <Content Include="Modules\Common\Imports\MultipleOutputHelper.ttinclude" />
     <Content Include="Content\site\site.administration.less" />
     <EmbeddedResource Include="Modules\Common\Migrations\NorthwindDB\NorthwindDBScript_Postgres.sql" />
@@ -1151,18 +1163,7 @@
     <Content Include="Scripts\ionslider\ion.rangeSlider.min.js" />
     <Content Include="Scripts\ionslider\ion.rangeSlider.skinFlat.css" />
     <Content Include="Scripts\ionslider\ion.rangeSlider.skinNice.css" />
-    <Content Include="Modules\BasicSamples\Dialogs\ChartInDialog\Index.cshtml" />
     <Content Include="Content\site\site.basicsamples.less" />
-    <Content Include="Modules\BasicSamples\Grids\ViewWithoutID\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\MultiColumnDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Grids\GridFilteredByCriteria\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Dialogs\DefaultValuesInNewDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\Index.cshtml" />
-    <Content Include="Modules\BasicSamples\Grids\GroupingAndSummariesInGrid\Index.cshtml" />
     <Content Include="Modules\Common\Imports\CodeGenerationHelpers.ttinclude" />
     <Content Include="Modules\Common\Imports\ClientTypes\ClientTypes.log">
       <AutoGen>True</AutoGen>
@@ -1182,7 +1183,6 @@
     <TypeScriptCompile Include="Modules\Administration\User\Authentication\Authorization.ts" />
     <TypeScriptCompile Include="Modules\Administration\User\UserGrid.ts" />
     <TypeScriptCompile Include="Modules\Administration\User\UserDialog.ts" />
-    <Content Include="Modules\BasicSamples\Grids\CancellableBulkAction\Index.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -1205,11 +1205,33 @@
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Modules\Common\Imports\ServerTypings\ServerTypings.log">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ServerTypings.tt</DependentUpon>
     </None>
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ChartInDialog\ChartInDialog.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\CloneableEntityDialog.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\CloneableEntityGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\DefaultValuesInNewDialog\DefaultValuesInNewGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnDialog\MultiColumnDialog.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnDialog\MultiColumnGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\MultiColumnResponsiveDialog.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\MultiColumnResponsiveGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\ResponsiveDialog.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\ResponsiveGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupDetailEditor.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupInDetailDialog.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupInDetailGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupOrderDetailDialog.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\LookupFilterByMultipleDialog.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\LookupFilterByMultipleGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\ProduceSeafoodCategoryEditor.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Grids\CancellableBulkAction\CancellableBulkActionGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Grids\GridFilteredByCriteria\GridFilteredByCriteria.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Grids\GroupingAndSummariesInGrid\GroupingAndSummariesInGrid.ts" />
+    <TypeScriptCompile Include="Modules\BasicSamples\Grids\ViewWithoutID\ViewWithoutIDGrid.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\LanguageList.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\DialogUtils.ts" />
     <TypeScriptCompile Include="Modules\Common\Navigation\ThemeSelection.ts" />
@@ -1568,27 +1590,6 @@
     <Content Include="Modules\Administration\Language\LanguageIndex.cshtml" />
     <Content Include="Modules\Administration\Translation\TranslationIndex.cshtml" />
     <Content Include="Modules\Administration\Role\RoleIndex.cshtml" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ChartInDialog\ChartInDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\CloneableEntityDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\CloneableEntityDialog\CloneableEntityGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\DefaultValuesInNewDialog\DefaultValuesInNewGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnDialog\MultiColumnGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnDialog\MultiColumnDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\MultiColumnResponsiveDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\MultiColumnResponsiveDialog\MultiColumnResponsiveGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\ResponsiveDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Dialogs\ResponsiveDialog\ResponsiveGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupOrderDetailDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupInDetailDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupDetailEditor.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\FilteredLookupInDetailDialog\FilteredLookupInDetailGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\LookupFilterByMultipleGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\LookupFilterByMultipleDialog.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Editors\LookupFilterByMultipleValues\ProduceSeafoodCategoryEditor.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Grids\CancellableBulkAction\CancellableBulkActionGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Grids\GridFilteredByCriteria\GridFilteredByCriteria.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Grids\GroupingAndSummariesInGrid\GroupingAndSummariesInGrid.ts" />
-    <TypeScriptCompile Include="Modules\BasicSamples\Grids\ViewWithoutID\ViewWithoutIDGrid.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\GridEditorDialog.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\ReportHelper.ts" />
     <TypeScriptCompile Include="Modules\Common\Helpers\GridEditorBase.ts" />
